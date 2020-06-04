@@ -1,0 +1,19 @@
+﻿<Window x:Class="CadastroPessoas.Visual.WPF.WndCadastrarPessoa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CadastroPessoas.Visual.WPF"
+        mc:Ignorable="d"
+        Title="Inserir nova pessoa" Height="171" Width="605" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="Nome:" HorizontalAlignment="Left" Margin="14,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbNome" HorizontalAlignment="Left" Height="23" Margin="82,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="494"/>
+        <Label x:Name="label1" Content="Idade:" HorizontalAlignment="Left" Margin="15,42,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbIdade" HorizontalAlignment="Left" Height="23" Margin="83,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="494"/>
+        <Label x:Name="label1_Copy" Content="Endereço:" HorizontalAlignment="Left" Margin="15,75,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbEndereco" HorizontalAlignment="Left" Height="23" Margin="83,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="494"/>
+        <Button x:Name="btnSalvarPessoa" Content="Salvar pessoa" HorizontalAlignment="Left" Margin="483,107,0,0" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.133,0" Click="btnSalvarPessoa_Click"/>
+
+    </Grid>
+</Window>
